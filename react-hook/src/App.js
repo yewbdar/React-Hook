@@ -6,11 +6,13 @@ import HookCounter from './componente/HookCounter';
 import HookCounterTwo from './componente/HookCounterTwo';
 import HookCountThree from './componente/HookCountThree';
 import HookCounterFour from './componente/HookCounterFour';
+import EffectCounter from './componente/EffectCounter';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterFour/>
+      <EffectCounter/>
+      {/* <HookCounterFour/> */}
       {/* <HookCountThree/> */}
       {/* <HookCounterTwo/>
       <HookCounter/>
