@@ -1,0 +1,18 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import ClassCounter from './componente/ClassCounter';
+import HookCounter from './componente/HookCounter';
+import HookCounterTwo from './componente/HookCounterTwo';
+
+function App() {
+  return (
+    <div className="App">
+      <HookCounterTwo/>
+      <HookCounter/>
+      <ClassCounter/>
+    </div>
+  );
+}
+
+export default App;
